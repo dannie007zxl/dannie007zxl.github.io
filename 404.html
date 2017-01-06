@@ -286,6 +286,13 @@
           
   <div class="comments" id="comments">
     
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
   </div>
 
 
@@ -314,7 +321,7 @@
                src="/images/avtar.png"
                alt="Dannie, CC" />
           <p class="site-author-name" itemprop="name">Dannie, CC</p>
-          <p class="site-description motion-element" itemprop="description">Dannie and CC's Blog</p>
+          <p class="site-description motion-element" itemprop="description">Be happy, Be tough.</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -488,6 +495,27 @@
 
   
 
+    <script type="text/javascript">
+      var disqus_shortname = 'dannie007zxl';
+      var disqus_identifier = '404.html';
+      var disqus_title = '';
+      var disqus_url = 'http://dannie007zxl.com/404.html';
+
+      function run_disqus_script(disqus_script){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
+      
+    </script>
+  
+
 
 
   
@@ -626,6 +654,9 @@
   
 
   
+<script type="text/javascript" async src="//push.zhanzhang.baidu.com/push.js">
+</script>
+
 
 </body>
 </html>
